@@ -1,74 +1,46 @@
-h1{
+h2 {
     text-align: center;
-    color: #22577a;
+}
+img{
+    align-items: center;
 }
 body{
-    background-image: url("https://later.com/blog/wp-content/uploads/2020/01/Nov1-The-Instagram-Image-Size-Guide-for-2021-Infographic_-Newsletter-Feature.png");
+    font-family:al-kanz;
+    background-image:url("wallpaper.jpeg");
 }
-a {
-    color: #27187e;
-    text-decoration : none ;
-    font-weight: bold;
+h1,h2{
+    font-family:al-kanz;
 }
-button:hover{
-    background-color: #00b4d8;
-    color: cornsilk;
-    border-color: #fee440;
-    box-shadow : 0 0.5em 0.5em -0.4em ;
-    transform: translateY(-0.15em) ;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-a:hover{
-    text-decoration: underline;
-    font-weight: 500 ;
-    color: deeppink;
+.bismillah{
+    color: crimson;
+    padding: 25px 0px 25px;
 }
-button:active{
-    background-color: #2ec4b6;
+.sher{
+    color: red;
+    text-decoration: none;
+    size: 20px;
 }
-::selection{
-    background-color: #ff477e;
+div{
+    background: rgba(99, 174, 177, 0.7);
+    border-radius: 25px;
+    border-style: dashed;
+    border-color: darkgoldenrod;
+}
+h3{
+    color: indigo;
 }
 
- section {
-    width: 300px;
-    height: 300px ;
-    background-color: blueviolet;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: #80ffdb;
-    border-radius: 10px;
+.unwan{
+    padding: 5px 0px 15px;
+    text-align: center;
 }
-section:hover {
-   font-weight: 600;
-    color: rgb(20, 220, 97);
-} 
-button{
-    border: 2px solid;
-    transition: all 0.25s ;
-    border-color: #fee440;
-}
-input{
-    border: 2px solid;
-    transition: all 0.25s ;
-    border-color: #fee440;
-}
-img:hover{
-    transform: scale(160%) translate(90%);
-}
-input:hover{
-    background-color: #00b4d8;
-    color: cornsilk;
-    border-color: #fee440;
-    box-shadow : 0 0.5em 0.5em -0.4em ;
-    transform: translateY(-0.15em) ;
-}
-input::placeholder{
-    color: cornsilk;
-}
-/* input::selection{
-    border: 2px solid;
-    border-color: #fee440;
-} */
-#chess {
-    color: #72efdd;
+nav{
+    width: 200px;
+  padding: auto;
+  margin: auto;
 }
